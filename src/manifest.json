@@ -1,0 +1,16 @@
+{
+   "author": "igorlogius",
+   "description": "Replaces the newtab page with a dark blank tab",
+   "chrome_url_overrides": {
+      "newtab": "dark-blank-newtab.html"
+   },
+   "chrome_settings_overrides" : {
+      "homepage": "dark-blank-newtab.html"
+    },
+   "icons": {
+      "200": "icon.png"
+   },
+   "manifest_version": 2,
+   "name": "dark-blank-newtab",
+   "version": "1.0.0"
+}
