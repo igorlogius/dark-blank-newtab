@@ -1,20 +1,11 @@
-# dark-blank-newtab 
+# dark-blank-newtab a firefox/chrome webextension add-on
 
-## Description
-Replaces the newtab page with a dark blank tab
-
-## Website
+## Details:
 https://addons.mozilla.org/en-US/firefox/addon/dark-blank-newtab/
 
-## Requirements
-- web-ext (https://github.com/mozilla/web-ext)
-
-## Build Ext. Package
-```bash
-git clone https://github.com/igorlogius/dark-blank-newtab.git
-cd dark-blank-newtab
-./build.sh
+## Usage:  
+wget https://github.com/igorlogius/tbl2csv/archive/master.zip
+unzip master.zip
+zip -j "dark-blank-newtab-$(grep '"version"' dark-blank-newtab-master/src/manifest.json  | cut -d'"' -f4).xpi" ./dark-blank-newtab-master/src/*
 ```
-
-Import dark-blank-newtab-x.y.z.zip into your browser via `about:debugging`
-
+Import dark-blank-newtab-x.y.z.zip into your browser (e.g. via `about:debugging`)
