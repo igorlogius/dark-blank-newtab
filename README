@@ -1,0 +1,11 @@
+
+# Details
+https://addons.mozilla.org/en-US/firefox/addon/dark-blank-newtab/
+
+# Build
+wget https://github.com/igorlogius/dark-blank-newtab/archive/master.zip
+unzip -d dark-blank-newtab -j master.zip
+zip "dark-blank-newtab-$(grep '"version"' dark-blank-newtab/manifest.json  | cut -d'"' -f4).xpi" ./dark-blank-newtab/*
+
+# Clean
+rm master.zip && rm ./dark-blank-newtab/* && rmdir ./dark-blank-newtab/
