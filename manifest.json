@@ -6,7 +6,7 @@
   "chrome_url_overrides": {
     "newtab": "dark-blank-newtab.html"
   },
-  "description": "Replaces the newtab page with a dark blank tab",
+  "description": "replaces the new tab page with a dark blank tab",
   "icons": {
     "200": "icon.png"
   },
